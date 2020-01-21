@@ -1,0 +1,278 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1:5; 
+    padding: 0;
+    margin: 0px;
+    background-color: #f4f4f4;
+}
+
+/*GLOBAL*/
+.container{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+} 
+
+/*HEADER*/
+header {
+    background: #eceff1;
+    color: #35424a;
+    padding-top: 20px;
+    min-height: 60px;
+    border-bottom: #e5e5e5 1px solid;
+}
+
+header a {
+    color: #232323b5;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0px 20px 0px 20px;
+    
+}
+
+header #logo{
+    float: left;
+}
+
+header #logo h1 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: #232323;
+    line-height: 1;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+/*homepage*/
+section#hompage {
+    min-height: 650px;
+    background-image: url(images/home06.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+section#hompage h1 {
+    /* background: rebeccapurple; */
+   /* text-align: center;*/
+    padding-top: 228px;
+    color: #262626;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+
+
+section#hompage p {
+    /* text-align: center; */
+    font-size: 19px;
+    color: #262626;
+    color: #2323238c;
+    font-style: italic;
+    line-height: 24px;
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+section#newsletter {
+    padding: 15px;
+    color: #fff;
+    background: #35424a;
+}
+
+section#newsletter form {
+    float: right;
+    margin-top: 21px;
+}
+
+section#newsletter h1 {
+    float: left;
+}
+
+input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+button.button_1 {
+    height: 38px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+
+/*portfoilo*/
+section#portfoilo {
+    margin-top: 52px;
+}
+section#portfoilo .port01 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+section#portfoilo .port01 img {
+    width: 170px;
+    height: 115px;
+}
+
+footer {
+    background: #ffce00;
+    padding: 3px;
+    /* margin-top: 23px; */
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+}
+
+.container button {
+    background: #FFCE00;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 30px;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    border: none;
+    width: 10%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: #262626;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+div#second-section {
+    padding: 150px;
+}
+
+.second-section {
+    margin-top: 100px;
+    
+}
+
+
+/* code to resize the image on the portifolio remember to reseze imgs by photoshop*/
+
+.second-section img {
+    width: 460.45px;
+    /* height: 281.53px; */
+    /* padding: 10px; */
+}
+.col-md-8.imgrow2 img {
+    width: 959px;
+    height: 480px;
+}
+
+.second-section-row2 .col-md-4 img {
+    width: 463px;
+    height: 485px;
+}
+
+.second-section-row2 img {
+   
+}
+
+button.portfoiloi {
+    display: none;
+}
+
+
+#education h4 {
+    background: #ffce00;
+     border-radius: 42px;
+    color: #fff;
+    float: right;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 15px;
+    padding: 12px 32px;
+    position: relative;
+    text-align: right;
+    border: 5px solid rgba(255, 255, 255, 0.48);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.16);
+}
+
+div#education {
+    margin-top: 60px;
+    /* margin-bottom: 60px; */
+    /* width: 72%; */
+}
+.contactme {
+    text-align: center;
+    background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-attachment: fixed;
+}
+
+.container #education {
+    text-align: center;
+    margin-bottom: 274px;
+    margin-top: 77px;
+}
+footer p {
+    margin-top: 9px;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+    background: #ffce00;
+    width: 18%;
+    color: #fff;
+}
+
+form{
+    transition:all 4s ease-in-out;
+}
+.form-control {
+   
+    margin-bottom: 21px;
+}
+
+.col-md-4.formleft h1 {
+    text-align: left;
+}
+
+.col-md-4.formleft {
+    left: 9%;
+    width: 28%;
+    margin-top: 76px;
+}
